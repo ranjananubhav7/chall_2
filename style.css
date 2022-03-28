@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-image: url('2-background.jpg');
+}
+img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 140px;
+    z-index: -1;
+}
+.para{
+    text-align: center;
+    border-radius: 10px;
+    height: 500px;
+    width: 800px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+.para:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: 0.3s;
+}
+.para p{
+    margin: auto 30px;
+}
